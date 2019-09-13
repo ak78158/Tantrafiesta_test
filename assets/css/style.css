@@ -1,16 +1,3 @@
-html {
-	height: 100%;
-	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-	overflow: hidden;
-}
-
-html
-{
-	background: url('32042.jpg');
-	background-repeat:no-repeat;
-
-   background-size:cover;
-}
 
 #stars {
 	width: 1px;
@@ -83,14 +70,13 @@ html
 	-webkit-text-fill-color: transparent;
 }
 .main {
-  position: relative;
-  margin: auto;
-  overflow: hidden;
-  width: 850px;
-  height: 480px;
+  position: absolute;
+	bottom: 0;
+
+
 }
 
-h1 {
+/* h1 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   margin-top: 2em;
@@ -102,25 +88,25 @@ h1 {
 h1 sup {
 	text-transform: lowercase;
 	color: #FF3E41;
-}
+} */
 footer
 {
 	position: fixed;
-  left: 0;
   bottom: 0;
-  width: 100%;
+  width: 80%;
 	height: 17.5%;
 	text-align: center;
 }
 
 #countdown {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
-  font-size: 1em;
+  font-size: 0.5em;
   letter-spacing: 5px;
-  margin-top: 5%;
+  margin-top: auto;
+	font-weight: bold;
 
 }
 
@@ -154,7 +140,7 @@ footer
 }
 .c-number {
   font-family: "Montserrat", sans-serif;
-  color: #FFF;
+  color: #fff;
   font-size: 1em;
 }
 @keyframes animStar {
@@ -166,9 +152,7 @@ footer
 	}
 }
 
-body{
-	height: 100%;
-}
+
 
 #loading{
 	margin-top: 5%;
@@ -218,11 +202,15 @@ body{
 	}
 	#loading-img
 	{
-		width: 90%;
+		width: 60%;
 	}
 	#container{
-		margin-top: 15%;
+		position: fixed;
 	}
+.container-fluid
+  {
+    height: 640px
+  }
 	li span {
 		display: block;
 		font-size: 1.5rem;
@@ -258,7 +246,7 @@ body{
 	}
 	#loading-img
 	{
-		width: 90%;
+		width: 60%;
 	}
 	li span {
 		display: block;
