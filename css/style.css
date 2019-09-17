@@ -21,6 +21,11 @@ body {
   height: auto;
   position: cover;
 }
+@media screen and (min-width: 990px){
+   #fh5co-main{
+    height: 100vh;
+  }
+}
 @media screen and (max-width: 992px) {
   body {
     font-size: 16px;
