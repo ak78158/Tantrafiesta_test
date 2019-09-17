@@ -57,6 +57,13 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+.bxr a:hover{
+    background: rgba(255,255,255,0.8);
+    color: #000 !important;
+    transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+}
 </style>
 </head>
 <body style="height: 100%">
@@ -100,7 +107,7 @@ background-size: cover;
             <img class = "img-responsive" src = "../images/maze_runner.png" alt = "maze_runner" >
         </div>
         <br>
-         <div class="col-md-6 animate-box fadeInLeft animated" data-animate-effect = "fadeinLeft" style="background: rgba(32, 32, 32, 0.5)">
+         <div class="col-md-6 animate-box fadeInLeft animated" data-animate-effect = "fadeinLeft" style="background: rgba(32, 32, 32, 0.5);padding: 2rem;">
                  <h1 id = "heading">Maze Runner</h1>
                     <p><b>
                         “Optimisation and speed get you the win.”
@@ -118,14 +125,11 @@ background-size: cover;
                      <p>
                          No of participants:4
                      </p>
-                     <br>
-                     <br>
                      
+                      <button class="bxr" style="background: none; border:1px dashed #fff;  "><a href="#" target="_blank" style="text-decoration: none; font-size: 1em; color:rgba(255,255,255,0.8); padding: 0.8rem;">RuleBook</a></button>
+                      <button class = "bxr" style="background: none; border:1px solif #fff; border-radius: 1rem;"><a href="#" target = "_blank" style="text-decoration: none; font-size: 1.2em; font-weight: 400; color:rgba(255,255,255,1); padding: 0.8rem;">Register Here</a></button>
         </div>
-        <button type="button" class="btn btn-light">
-            <a href="#" target="blank">RuleBook</a>
-        </button>
-        <button typee = "button" class = "btn btn-light"><a href="#" target = "blank">Register Here</a></button>
+       
         </div>
     </div>
     </div>
